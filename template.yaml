@@ -20,6 +20,7 @@ Resources:
   PutProductFunction:
     Type: AWS::Serverless::Function
     Properties:
+      FunctionName: "awsdevday2023tokyo-sls-framework"
       Environment:
         Variables:
           quarkus_lambda_handler: createProduct
